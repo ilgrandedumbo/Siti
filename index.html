@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+{
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0000ff;
+}
+* {
+  box-sizing: border-box;
+  }
+/* Style the header */
+header {
+  background-color: #33F0FF;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: blue;
+  }
+  /* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="rendimento.html">Rendimento Scolastico</a></li>
+  <li><a href="fotoacaso.html">Foto a caso</a></li>
+  <li><a href="infopap.html">Info</a></li>
+</ul>
+<header>
+<h2>Mi presento</h2>
+</header>
+<p>Mi chiamo Niccolò Papini e ho 18 anni</p>
+<p>Attualmente frequento la quarta al Liceo delle Scienze Applicate <a href="https://www.iismeuccimassa.it/">A.Meucci</a></p>
+<img src="https://it.geosnews.com/redim?src=https%3A%2F%2Filtaccodibacco.it%2Fimg_eventi%2F2015%2F06%2F133927.jpg&w=650&nu=1" alt="Karim Musa (Yotobi)">
+<p>Questo sono palesemente io sotto sostanze che non posso dire essendo un compito scolastico</p>
+<img src="https://images-eu.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/ilgattosultubo_1571390396807_original._CR0,0,640,640_._FMjpg_._SS205_.jpeg" alt="IlGattoSulTubo">
+<p>Questo invece sono io mentre sono in astinenza dalle stesse sostanze che non posso nominare</p>
+<p> Parlando seriamente ho 18 anni e ho intenzione di entrare al <a href="https://www.polimi.it/">Politecnico di Milano</a>, al primo tentativo ho preso 53 su 100 ma con il secondo tentativo punto a riprendermi almeno quei 7 punti persi</p>
+<p> Avete notato che il menù scende con voi? </p>
+<p> Se non l'avete notato male ora lo notate!!! </p>
+</body>
+</html>
